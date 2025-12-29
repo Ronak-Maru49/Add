@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover the wonders of Portugal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/dev-style.css">
+</head>
+
+<body>
+
+<!-- /* ---------- Start Desktop Navbar ---------- */ -->
+
+    <nav class="new-navbar-wrapper">
+        <div class="new-navbar-container">
+            <div class="new-navbar-main">
+                <div class="new-navbar-logo">
+                    <img src="./assets/img/logo/dc-group.png" alt="Logo" />
+                </div>
+                <button class="new-navbar-toggle" id="navbarToggle"><i class="fa fa-bars"></i></button>
+
+                <div class="new-navbar-menu-wrapper" id="navbarMenu">
+                    <div class="new-navbar-mobile-header">
+                        <img src="./assets/img/logo/dc-group.png" alt="Logo" />
+                        <button class="new-navbar-close" id="navbarClose"><i class="fa fa-times"></i></button>
+                    </div>
+                    <ul class="new-navbar-menu">
+                        <li class="new-navbar-item"><a href="#" class="new-navbar-link">Home</a></li>
+                        <li class="new-navbar-item" data-dropdown="about">
+                            <a href="#" class="new-navbar-link">About Us <i class="fa fa-angle-down"></i></a>
+                            <ul class="new-navbar-dropdown">
+                                <li><a href="our-purpose.html" class="new-navbar-dropdown-link">Our Purpose</a></li>
+                                <li><a href="our-team.html" class="new-navbar-dropdown-link">Team</a></li>
+                                <li><a href="our-client.html" class="new-navbar-dropdown-link">Clients</a></li>
+                                <li><a href="gallery.html" class="new-navbar-dropdown-link">Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="new-navbar-item" data-dropdown="destinations">
+                            <a href="#" class="new-navbar-link">Destinations <i class="fa fa-angle-down"></i></a>
+                            <div class="new-navbar-megamenu">
+                                <div class="new-navbar-megamenu-content">
+                                  <!-- Africa -->
+                                   <div>
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="africa.html"><i class="fa fa-paw"></i> Africa</a></h4>
+                                    <a href="botswana.html">Botswana</a>
+                                    <a href="democratic-republic-of-congo.html">Democratic Republic of Congo</a>
+                                    <a href="egypt.html">Egypt</a>
+                                    <a href="ethiopia.html">Ethiopia</a>
+                                    <a href="kenya.html">Kenya</a>
+                                    <a href="madagascar.html">Madagascar</a>
+                                    <a href="malawi.html">Malawi</a>
+                                    <a href="mauritius.html">Mauritius</a>
+                                    <a href="morocco.html">Morocco</a>
+                                    <a href="mozambique.html">Mozambique</a>
+                                    <a href="namibia.html">Namibia</a>
+                                    <a href="rwanda.html">Rwanda</a>
+                                    <a href="seychelles.html">The Seychelles</a>
+                                    <a href="south-africa.html">South Africa</a>
+                                    <a href="tanzania-zanzibar.html">Tanzania &amp; Zanzibar</a>
+                                    <a href="uganda.html">Uganda</a>
+                                    <a href="zambia.html">Zambia</a>
+                                    <a href="zimbabwe.html">Zimbabwe</a>
+                                    <a href="africa.html" class="browse-all">Browse all Africa</a>
+                                  </div>
+                                   <!-- Caribbean -->
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="caribbean.html"><i class="fa fa-sun-o"></i> Caribbean</a></h4>
+                                    <a href="#">Bahamas</a>
+                                    <a href="#">Barbados</a>
+                                    <a href="#">Cuba</a>
+                                    <a href="#">Dominican Republic</a>
+                                    <a href="#">Jamaica</a>
+                                    <a href="#">Saint Lucia</a>
+                                    <a href="#">Trinidad & Tobago</a>
+                                    <a href="caribbean.html" class="browse-all">Browse all Caribbean</a>
+                                  </div>
+                                  <!-- South East Asia -->
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="south-east-asia.html"><i class="fa fa-tree"></i> South East Asia</a></h4>
+                                    <a href="#">Thailand</a>
+                                    <a href="#">Vietnam</a>
+                                    <a href="#">Cambodia</a>
+                                    <a href="#">Laos</a>
+                                    <a href="#">Malaysia</a>
+                                    <a href="#">Singapore</a>
+                                    <a href="#">Philippines</a>
+                                    <a href="south-east-asia.html" class="browse-all">Browse all South East Asia</a>
+                                  </div>
+                                  </div>
+                              
+                                  <!-- Arctic Circle -->
+                                  <div>
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="arctic-circle.html"><i class="fa fa-snowflake-o"></i>  Arctic Circle</a></h4>
+                                    <a href="#">Antarctica</a>
+                                    <a href="#">Canada</a>
+                                    <a href="#">Finland</a>
+                                    <a href="#">Greenland</a>
+                                    <a href="#">Iceland</a>
+                                    <a href="#">Norway</a>
+                                    <a href="#">Sweden</a>
+                                    <a href="arctic-circle.html" class="browse-all">Browse all Arctic Circle</a>
+                                  </div>
+                                  <!-- Europe -->
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="europe.html"><i class="fa fa-flag"></i> Europe</a></h4>
+                                    <a href="#">France</a>
+                                    <a href="#">Italy</a>
+                                    <a href="#">Spain</a>
+                                    <a href="#">Switzerland</a>
+                                    <a href="#">Germany</a>
+                                    <a href="#">Greece</a>
+                                    <a href="#">Portugal</a>
+                                    <a href="#">United Kingdom</a>
+                                    <a href="#">Croatia</a>
+                                    <a href="#">Austria</a>
+                                    <a href="europe.html" class="browse-all">Browse all Europe</a>
+                                  </div>
+                                  <!-- Latin America -->
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="latin-america.html"><i class="fa fa-leaf"></i> Latin America</a></h4>
+                                    <a href="#">Argentina</a>
+                                    <a href="#">Brazil</a>
+                                    <a href="#">Chile</a>
+                                    <a href="#">Costa Rica</a>
+                                    <a href="#">Mexico</a>
+                                    <a href="#">Peru</a>
+                                    <a href="#">Colombia</a>
+                                    <a href="latin-america.html" class="browse-all">Browse all Latin America</a>
+                                  </div>
+                                  <!-- South Pacific -->
+                                  <div class="new-navbar-megamenu-column">
+                                    
+                                    <h4 class="new-navbar-megamenu-title"><a href="south-pacific.html"><i class="fa fa-globe"></i>South Pacific</a></h4>
+                                    <a href="#">Fiji</a>
+                                    <a href="#">Tahiti</a>
+                                    <a href="#">Cook Islands</a>
+                                    <a href="#">Vanuatu</a>
+                                    <a href="#">Samoa</a>
+                                    <a href="south-pacific.html" class="browse-all">Browse all South Pacific</a>
+                                  </div>
+                                  </div>
+                              
+                                  <!-- Asia -->
+                                   <div>
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="asia.html"><i class="fa fa-pagelines"></i> Asia</a></h4>
+                                    <a href="#">Bhutan</a>
+                                    <a href="#">Borneo</a>
+                                    <a href="#">Cambodia</a>
+                                    <a href="#">China</a>
+                                    <a href="#">India</a>
+                                    <a href="#">Indonesia</a>
+                                    <a href="#">Israel</a>
+                                    <a href="#">Japan</a>
+                                    <a href="#">Jordan</a>
+                                    <a href="#">Laos</a>
+                                    <a href="#">Macau</a>
+                                    <a href="#">Malaysia</a>
+                                    <a href="#">The Maldives</a>
+                                    <a href="#">Mauritius</a>
+                                    <a href="#">Mongolia</a>
+                                    <a href="#">Myanmar</a>
+                                    <a href="#">Nepal</a>
+                                    <a href="#">Oman</a>
+                                    <a href="#">Papua New Guinea</a>
+                                    <a href="#">The Philippines</a>
+                                    <a href="#">Qatar</a>
+                                    <a href="#">The Seychelles</a>
+                                    <a href="#">Singapore</a>
+                                    <a href="#">South Korea</a>
+                                    <a href="#">Sri Lanka</a>
+                                    <a href="#">Taiwan</a>
+                                    <a href="#">Thailand</a>
+                                    <a href="#">The United Arab Emirates</a>
+                                    <a href="#">Vietnam</a>
+                                    <a href="asia.html" class="browse-all">Browse all Asia</a>
+                                  </div>
+                                  <!-- Indian Subcontinent -->
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="indian-subcontinent.html"><i class="fa fa-diamond"></i> Indian Subcontinent</a></h4>
+                                    <a href="#">India</a>
+                                    <a href="#">Nepal</a>
+                                    <a href="#">Bhutan</a>
+                                    <a href="#">Bangladesh</a>
+                                    <a href="#">Sri Lanka</a>
+                                    <a href="indian-subcontinent.html" class="browse-all">Browse all Indian Subcontinent</a>
+                                  </div>
+                                  <!-- A-Z Destinations -->
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="a-z-destinations.html"><i class="fa fa-map-o"></i> A–Z Destinations</a></h4>
+                                    <a href="a-z-destinations.html" class="browse-all">View all destinations A–Z</a>
+                                  </div>
+                                  </div>
+                              
+                                  <!-- Australasia & Oceania -->
+                                   <div>
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="australasia-oceania.html"><i class="fa fa-globe"></i> Australasia & Oceania</a></h4>
+                                    <a href="#">Australia</a>
+                                    <a href="#">New Zealand</a>
+                                    <a href="#">Fiji</a>
+                                    <a href="#">Vanuatu</a>
+                                    <a href="#">Tahiti</a>
+                                    <a href="#">Samoa</a>
+                                    <a href="#">Tonga</a>
+                                    <a href="australasia-oceania.html" class="browse-all">Browse all Australasia & Oceania</a>
+                                  </div>
+                                  <!-- Indian Ocean -->
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="indian-ocean.html"><i class="fa fa-anchor"></i> Indian Ocean</a></h4>
+                                    <a href="#">Maldives</a>
+                                    <a href="#">Mauritius</a>
+                                    <a href="#">Seychelles</a>
+                                    <a href="#">Sri Lanka</a>
+                                    <a href="indian-ocean.html" class="browse-all">Browse all Indian Ocean</a>
+                                  </div>
+                                  <!-- Middle East -->
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="middle-east.html"><i class="fa fa-moon-o"></i>  Middle East</a></h4>
+                                    <a href="#">Dubai</a>
+                                    <a href="#">Oman</a>
+                                    <a href="#">Qatar</a>
+                                    <a href="#">Saudi Arabia</a>
+                                    <a href="#">Jordan</a>
+                                    <a href="#">Israel</a>
+                                    <a href="middle-east.html" class="browse-all">Browse all Middle East</a>
+                                  </div>
+                                  <!-- North America -->
+                                  <div class="new-navbar-megamenu-column">
+                                    <h4 class="new-navbar-megamenu-title"><a href="north-america.html" class="icon-link"><i class="fa fa-star"></i><span class="title-text"> North America</span></a></h4>
+                                    <a href="#">United States</a>
+                                    <a href="#">Canada</a>
+                                    <a href="#">Mexico</a>
+                                    <a href="#">Hawaii</a>
+                                    <a href="north-america.html" class="browse-all">Browse all North America</a>
+                                  </div>
+                                  </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        
+                        <li class="new-navbar-item"><a href="package.html" class="new-navbar-link">Packages</a></li>
+                        <li class="new-navbar-item"><a href="group-companies.html" class="new-navbar-link">Group Companies</a></li>
+                    </ul>
+                    <div class="new-navbar-cta new-navbar-ctas ">
+                        <a href="contact.html" class="new-navbar-btn">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="new-navbar-cta d-none d-lg-block">
+                    <a href="contact.html" class="new-navbar-btn">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="new-navbar-overlay" id="navbarOverlay"></div>
+
+ <!-- /* ---------- End Desktop Navbar ---------- */ -->
+ <!-- /* ---------- Start Desktop Bannenr ---------- */ -->
+    <div class="country-card">
+      <div class="country-hero" style="background-image: url(assets/img/Portugal/hero.avif);">
+        <div class="country-hero-content">
+          <div class="country-code">MZ</div>
+          <div>
+            <h1 class="country-name">Portugal</h1>
+            <p class="country-tagline">Explore Portugal – Island Paradise of the Indian Ocean</p>
+            <nav class="breadcrumb">
+              <a href="index.html">Home</a>
+              <span>›</span>
+              <a href="africa.html">Africa</a>
+              <span>›</span>
+              <span class="active">Portugal</span>
+            </nav>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="country-info">
+  <div class="row">
+  
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+      <div class="country-info-item">
+        <div class="country-info-icon location"><i class="fa fa-map-marker"></i></div>
+        <div>
+          <div class="country-info-label">Capital</div>
+          <div class="country-info-value">Lisbon</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+      <div class="country-info-item">
+        <div class="country-info-icon language"><i class="fa fa-globe"></i></div>
+        <div>
+          <div class="country-info-label">Language</div>
+          <div class="country-info-value">Portuguese, English</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+      <div class="country-info-item">
+        <div class="country-info-icon currency"><i class="fa fa-money"></i></div>
+        <div>
+          <div class="country-info-label">Currency</div>
+          <div class="country-info-value fs-15">Euro (EUR)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+      <div class="country-info-item">
+        <div class="country-info-icon time"><i class="fa fa-clock-o"></i></div>
+        <div>
+          <div class="country-info-label">Time Zone</div>
+          <div class="country-info-value fs-15">WET (UTC+0)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+      <div class="country-info-item">
+        <div class="country-info-icon phone"><i class="fa fa-phone"></i></div>
+        <div>
+          <div class="country-info-label">Country Code</div>
+          <div class="country-info-value">+351</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
+      <div class="country-info-item">
+        <div class="country-info-icon calendar"><i class="fa fa-calendar"></i></div>
+        <div>
+          <div class="country-info-label">Best Time</div>
+          <div class="country-info-value fs-15">April–June (azulejo blooms), September–October (harvests)</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    </div>
+ <!-- /* ---------- end Desktop Bannenr ---------- */ -->
+
+<main style="background-image: url(./assets/img/bg-img/shape2.png);">
+   <!-- /* ---------- Start Desktop Discover Botswana’s Wonders ---------- */ -->
+  <div class="country-details-wrapper my-120">
+
+    <main class="container-fluid" role="main" aria-labelledby="page-title mt-20">
+      <div class="container-fluid d-flex ">
+        <div class="d-flex align-items-center justify-content-between">
+          <a href="africa.html" class="country-details-back-btn" title="Back">
+            <i class="fa fa-arrow-left"></i>
+            Back to Africa
+          </a>
+        </div>
+      </div>
+      <div class="country-details-tabs" role="region" aria-label="Country details tabs">
+        <!-- Tab nav -->
+        <ul class="country-details-tab-nav" role="tablist">
+          <li class="country-details-tab-item" role="presentation">
+            <a href="#overview" class="country-details-tab-link active" data-tab="overview" role="tab"
+              aria-selected="true" aria-controls="overview">Overview</a>
+          </li>
+          <li class="country-details-tab-item" role="presentation">
+            <a href="#tourism" class="country-details-tab-link" data-tab="tourism" role="tab" aria-selected="false"
+              aria-controls="tourism">Tourism</a>
+          </li>
+          <li class="country-details-tab-item" role="presentation">
+            <a href="#culture" class="country-details-tab-link" data-tab="culture" role="tab" aria-selected="false"
+              aria-controls="culture">Culture</a>
+          </li>
+          <li class="country-details-tab-item" role="presentation">
+            <a href="#travel-info" class="country-details-tab-link" data-tab="travel-info" role="tab"
+              aria-selected="false" aria-controls="travel-info">Travel Info</a>
+          </li>
+          <li class="country-details-tab-item" role="presentation">
+            <a href="#suggested-itineraries" class="country-details-tab-link" data-tab="suggested-itineraries" role="tab"
+              aria-selected="false" aria-controls="suggested-itineraries">Suggested Itineraries</a>
+          </li>
+          <li class="country-details-tab-item" role="presentation">
+            <a href="#quick-guide" class="country-details-tab-link" data-tab="quick-guide" role="tab"
+              aria-selected="false" aria-controls="quick-guide">Quick Guide</a>
+          </li>
+          <li class="country-details-tab-item" role="presentation">
+            <a href="#gallery-map" class="country-details-tab-link" data-tab="gallery-map" role="tab"
+              aria-selected="false" aria-controls="gallery-map">Gallery & Map</a>
+          </li>
+          <li class="country-details-tab-item" role="presentation">
+            <a href="#travel-warnings" class="country-details-tab-link" data-tab="travel-warnings" role="tab"
+              aria-selected="false" aria-controls="travel-warnings">Travel Tips & Warnings</a>
+          </li>
+        </ul>
+
+        <!-- Tab content -->
+        <div class="country-details-tab-content">
+          <!-- Overview -->
+          <section id="overview" class="country-details-tab-pane active" role="tabpanel" aria-labelledby="overview" tabindex="0">
+  <div class="country-details-section">
+    <h2 class="country-details-section-title" id="page-title">
+      <i class="fa fa-info-circle"></i> Basic Information - Portugal 🇵🇹
+    </h2>
+
+    <div class="country-details-info-grid">
+      <div class="country-details-info-card">
+        <div class="country-details-info-label">Country</div>
+        <div class="country-details-info-value">Portugal 🇵🇹</div>
+      </div>
+
+      <div class="country-details-info-card">
+        <div class="country-details-info-label">Continent</div>
+        <div class="country-details-info-value">🌍 Europe</div>
+      </div>
+
+      <div class="country-details-info-card">
+        <div class="country-details-info-label">Currency</div>
+        <div class="country-details-info-value">Euro (EUR)</div>
+      </div>
+
+    
+
+      <div class="country-details-info-card">
+        <div class="country-details-info-label">Calling Code</div>
+        <div class="country-details-info-value">+351</div>
+      </div>
+
+     
+    </div>
+
+    <div class="country-details-highlight-box">
+      <div class="country-details-highlight-title">Best Time to Visit</div>
+      <div class="country-details-highlight-text">April–June (azulejo blooms), September–October (harvests)</div>
+    </div>
+  </div>
+
+  <div class="country-details-section">
+    <h3 class="country-details-subsection-title">
+      <i class="fa fa-tree"></i> Geography & Landscape
+    </h3>
+
+    <div class="country-details-tags">
+      <span class="country-details-tag">Atlantic cliffs</span>
+      <span class="country-details-tag">Tagus estuary</span>
+      <span class="country-details-tag">Alentejo plains</span>
+      <span class="country-details-tag">Madeira laurel forests</span>
+      <span class="country-details-tag"></span>
+    </div>
+
+    <p class="country-details-text">
+      </p>
+
+    <div class="country-details-info panel panel-default">
+      <div class="panel-body">
+        <h4 class="text-dark">
+          <i class="fa fa-sun-o"></i> Climate
+        </h4>
+        <p class="text-muted mb-5">
+           Portugal's Mediterranean climate warms Algarve summers for cataplana and chills
+Serra da Estrela winters with chestnut roasts.
+        </p>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="well well-sm text-center">
+              <strong>☀️ Summer (Nov–Apr)</strong><br>
+              <span>Mediterranean (10–30°C)</span>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="well well-sm text-center">
+              <strong>❄️ Winter (May–Oct)</strong><br>
+              <span>mild coasts</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country Gallery Carousel -->
+    <div id="countryGallerySlider" class="carousel slide country-details-gallery" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <!-- First slide -->
+        <div class="item active">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/gallary.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/gallary2.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/gallary3.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second slide -->
+        <div class="item">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/gallary4.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/overview.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/overview2.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#countryGallerySlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="right carousel-control" href="#countryGallerySlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+</section>
+          <!-- Tourism -->
+          <section id="tourism" class="country-details-tab-pane" role="tabpanel" aria-labelledby="tourism" tabindex="0">
+  <div class="country-details-section">
+  
+    <!-- Landmarks & Heritage -->
+ 
+
+    <!-- Cultural & Historical Sites -->
+    <h3 class="country-details-subsection-title"><i class="fa fa-building"></i> Cultural & Historical Sites</h3>
+    <div class="country-details-card-grid">
+      <div class="country-details-card">
+        <div class="country-details-card-icon"><i class="fa fa-landmark"></i></div>
+        <div class="country-details-card-title">Douro vineyards</div>
+        <div class="country-details-card-text"></div>
+      </div>
+
+      <div class="country-details-card">
+        <div class="country-details-card-icon"><i class="fa fa-paint-brush"></i></div>
+        <div class="country-details-card-title">Óbidos medieval</div>
+        <div class="country-details-card-text"></div>
+      </div>
+
+    
+    </div>
+
+    <!-- National Parks & Natural Reserves -->
+    <h3 class="country-details-subsection-title"><i class="fa fa-tree"></i> National Parks & Natural Reserves</h3>
+    <div class="country-details-gallery">
+      <div class="col-md-4">
+        <div class="country-details-gallery-item">
+          <img src="assets/img/Portugal/Belmond_Reid’s_Palace.avif"
+               alt="" class="country-details-gallery-img">
+          <div class="country-details-gallery-caption"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="country-details-gallery-item">
+          <img src="assets/img/Portugal/Conrad_Algarve.avif"
+               alt="" class="country-details-gallery-img">
+          <div class="country-details-gallery-caption"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="country-details-gallery-item">
+          <img src="assets/img/Portugal/Six_Senses_Douro_Valley.avif"
+               alt="" class="country-details-gallery-img">
+          <div class="country-details-gallery-caption"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Adventures & Activities -->
+    <h3 class="country-details-subsection-title"><i class="fa fa-bicycle"></i> Adventures & Activities</h3>
+    <ul class="country-details-list">
+      <li class="country-details-list-item">Douro rabelo cruises</li>
+      <li class="country-details-list-item">Sintra tuk-tuk palaces</li>
+      <li class="country-details-list-item">Algarve cliff hikes</li>
+    </ul>
+  </div>
+</section>
+
+          <!-- Culture -->
+          <section id="culture" class="country-details-tab-pane" role="tabpanel" aria-labelledby="culture" tabindex="0">
+  <div class="country-details-section">
+    <h2 class="country-details-section-title"><i class="fa fa-users"></i> Local Culture & Lifestyle</h2>
+
+    <!-- Festivals & Events -->
+    <h3 class="country-details-subsection-title"><i class="fa fa-calendar"></i> Festivals & Events</h3>
+    <div class="country-details-card-grid">
+      <div class="country-details-card">
+        <div class="country-details-card-icon"><i class="fa fa-music"></i></div>
+        <div class="country-details-card-title">Lisbon Carnival</div>
+        <div class="country-details-card-text">
+          
+        </div>
+      </div>
+      <div class="country-details-card">
+        <div class="country-details-card-icon"><i class="fa fa-sun-o"></i></div>
+        <div class="country-details-card-title">Porto São João</div>
+        <div class="country-details-card-text">
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- Food & Cuisine -->
+    <h3 class="country-details-subsection-title"><i class="fa fa-cutlery"></i> Local Food & Cuisine</h3>
+    <div class="country-details-highlight-box">
+      <div class="country-details-highlight-title">Must-Try Dishes</div>
+      <div class="country-details-highlight-text">
+        <strong>Pastéis de nata</strong><br>
+        <strong>bacalhau</strong><br>
+        <strong>cataplana</strong>
+      </div>
+    </div>
+
+    <!-- Art & Music -->
+    <h3 class="country-details-subsection-title"><i class="fa fa-paint-brush"></i> Art & Music</h3>
+    <ul class="country-details-list">
+      <li class="country-details-list-item">Fado saudade</li>
+      <li class="country-details-list-item">azulejo tiles</li>
+      <li class="country-details-list-item">sardana dance</li>
+    </ul>
+
+    <!-- Local Markets -->
+    <h3 class="country-details-subsection-title"><i class="fa fa-shopping-basket"></i> Local Markets</h3>
+    <div class="country-details-card">
+      <div class="country-details-card-title">Time Out (Lisbon), Bolhão (Porto).</div>
+      <div class="country-details-card-text">
+        
+      </div>
+    </div>
+
+    <!-- Image Gallery -->
+    <div id="countryGallerySliderCulture" class="carousel slide country-details-gallery" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/culture.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/culture2.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/culture3.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="assets/img/Portugal/culture4.avif"
+                   class="img-responsive country-details-gallery-img" alt="">
+              <div class="carousel-caption"><h4></h4></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="left carousel-control" href="#countryGallerySliderCulture" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="right carousel-control" href="#countryGallerySliderCulture" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+          <!-- Travel Info -->
+            <section id="travel-info" class="country-details-tab-pane" role="tabpanel" aria-labelledby="travel-info" tabindex="0">
+  <div class="country-details-section">
+  
+    <h2 class="country-details-section-title text-primary">
+      <i class="fa fa-plane"></i> Travel Essentials
+    </h2>
+  
+    <div class="country-details-subsection">
+      <ul class="list-unstyled country-details-text">
+        <li><strong>Visa:</strong>Schengen; visa-free EU/US (90 days).</li>
+        <li><strong>Transport:</strong>CP trains, Ryanair, TAP Air Portugal.</li>
+        <li><strong>Accommodation:</strong>Lisbon Alfama, Porto Ribeira, Algarve beach.</li>
+        <li><strong>Budget:</strong>$70–140 (budget), $140–280 (mid), $350+ (luxury).</li>
+        <li><strong>Safety:</strong>Safe; pickpockets Lisbon, road scooters.</li>
+      </ul>
+    </div>
+  
+    <hr class="country-details-divider">
+  
+    <h2 class="country-details-section-title text-success">
+      <i class="fa fa-camera"></i> Fun Facts & Highlights
+    </h2>
+  
+    <div class="country-details-subsection">
+      <ul class="list-unstyled country-details-text">
+        <li><strong>Trivia:</strong>Oldest nation border (1139), port wine birthplace.</li>
+        <li><strong>Hidden Gems:</strong>Comporta rice fields, Monsanto stone village, Berlengas isles.</li>
+        <li><strong>Movies:</strong>The Man Who Killed Don Quixote (2018), Night Train to Lisbon (2013).</li>
+        <li><strong>Insta Spots:</strong>Pena fairy, Douro terraces, Benagil cave.</li>
+      </ul>
+    </div>
+  
+  </div>
+</section>
+
+          <!-- Suggessted itineraries -->
+            <section id="suggested-itineraries" class="country-details-tab-pane" role="tabpanel" aria-labelledby="suggested-itineraries" tabindex="0">
+  <div class="country-details-section">           
+
+    <h2 class="country-details-section-title text-primary">
+      <i class="fa fa-map-signs"></i> Suggested Itineraries in Portugal
+    </h2>
+  
+    <p class="country-details-text">
+      
+    </p>
+  
+    <div class="panel panel-default">
+      <div class="panel-heading bg-info text-white">
+        <h3 class="panel-title"><i class="fa fa-clock-o"></i> 3-Day</h3>
+      </div>
+      <div class="panel-body">
+        <ul class="list-unstyled country-details-text">
+          <li><strong>Day 1:</strong>Lisbon Belém/Alfama</li>
+          <li><strong>Day 2:</strong>Sintra day</li>
+          <li><strong>Day 3:</strong>Óbidos medieval</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="panel panel-default">
+      <div class="panel-heading bg-success text-white">
+        <h3 class="panel-title"><i class="fa fa-globe"></i> 7-Day</h3>
+      </div>
+      <div class="panel-body">
+        <ul class="list-unstyled country-details-text">
+          <li><strong>Day 1–2:</strong>Lisbon intro</li>
+          <li><strong>Day 3–4:</strong>Porto Douro</strong></li>
+          <li><strong>Day 5–6:</strong>Coimbra university</li>
+          <li><strong>Day 7:</strong>Nazaré waves</li>
+        </ul>
+      </div>
+    </div>
+  
+    <hr class="country-details-divider">
+  
+    <h3 class="country-details-subsection-title text-success">
+      <i class="fa fa-heart"></i> Special / Themed Plans
+    </h3>
+    <ul class="list-unstyled country-details-text">
+      <li><strong>Romantic:</strong>Porto rabelo dinners, Sintra misty walks, Algarve grotto kayaks.</li>
+      <li><strong>Family:</strong>Nazaré kid waves, Coimbra fado shows, Lisbon aquarium.</li>
+      <li><strong>Solo :</strong>CP train solos, hostel azulejo hunts, Berlengas bird rambles.</li>
+    </ul>
+  
+  </div>
+</section>
+
+          <!-- Quick Guide -->
+          <section id="quick-guide" class="country-details-tab-pane" role="tabpanel" aria-labelledby="quick-guide" tabindex="0">
+  <div class="country-details-section">
+  
+    <h2 class="country-details-section-title text-primary">
+      <i class="fa fa-book"></i> Quick Guide
+    </h2>
+  
+    <p class="country-details-text">
+      
+    </p>
+  
+    <!-- Info Cards -->
+    <div class="country-details-info-grid">
+      <div class="country-details-info-card">
+        <div class="country-details-info-label"><i class="fa fa-money"></i> Tipping</div>
+        <div class="country-details-info-value">Round up; small service.</div>
+      </div>
+      <div class="country-details-info-card">
+        <div class="country-details-info-label"><i class="fa fa-plug"></i> Power</div>
+        <div class="country-details-info-value">230V, Type C/F (EU).</div>
+      </div>
+      <div class="country-details-info-card">
+        <div class="country-details-info-label"><i class="fa fa-credit-card"></i> Currency</div>
+        <div class="country-details-info-value">Euro (EUR) — cards everywhere.</div>
+      </div>
+    </div>
+  
+    <hr class="country-details-divider">
+  
+    <!-- Hotels -->
+    <h3 class="country-details-subsection-title text-info">
+      <i class="fa fa-bed"></i> Top Hotels
+    </h3>
+  
+    <div class="container-fluid">
+      <div id="hotelCarouselMozambique" class="carousel slide" data-ride="carousel">
+      
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="row">
+            
+              <div class="col-sm-6 col-md-4">
+                <div class="Quick-Guide-hotels thumbnail">
+                  <img src="assets/img/Portugal/Belmond_Reid’s_Palace.avif" alt="White Pearl Resorts, Ponta Mamoli">
+                  <div class="caption">
+                    <h4 class="text-dark">Belmond Reid’s Palace</h4>
+                    <p class="text-muted"><i class="fa fa-map-marker text-primary"></i> Exclusive beachside villas with ocean views and diving experiences.</p>
+                    <div class="btn-group btn-group-justified">
+                      <a href="https://www.whitepearlresorts.com/" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-globe"></i> Website</a>
+                      <a href="https://www.google.com/maps?q=White+Pearl+Resorts+Ponta+Mamoli" target="_blank" class="btn btn-default btn-sm"><i class="fa fa-map-marker"></i> Map</a>
+                      <a href="https://wa.me/919909446822?text=Hello,%20I'm%20interested%20in%20White%20Pearl%20Resorts%20Ponta%20Mamoli." target="_blank" class="btn btn-success btn-sm"><i class="fa fa-whatsapp"></i> Book Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col-sm-6 col-md-4">
+                <div class="Quick-Guide-hotels thumbnail">
+                  <img src="assets/img/Portugal/Conrad_Algarve.avif" alt="Polana Serena Hotel, Maputo">
+                  <div class="caption">
+                    <h4 class="text-dark">Conrad Algarve</h4>
+                    <p class="text-muted"><i class="fa fa-map-marker text-primary"></i> Historic luxury hotel overlooking the Indian Ocean in Maputo.</p>
+                    <div class="btn-group btn-group-justified">
+                      <a href="https://www.serenahotels.com/polana" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-globe"></i> Website</a>
+                      <a href="https://www.google.com/maps?q=Polana+Serena+Hotel+Maputo" target="_blank" class="btn btn-default btn-sm"><i class="fa fa-map-marker"></i> Map</a>
+                      <a href="https://wa.me/919909446822?text=Hello,%20I'm%20interested%20in%20Polana%20Serena%20Hotel%20Maputo." target="_blank" class="btn btn-success btn-sm"><i class="fa fa-whatsapp"></i> Book Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col-sm-6 col-md-4">
+                <div class="Quick-Guide-hotels thumbnail">
+                  <img src="assets/img/Portugal/Six_Senses_Douro_Valley.avif" alt="Anantara Bazaruto Island Resort">
+                  <div class="caption">
+                    <h4 class="text-dark">Six Senses Douro Valley</h4>
+                    <p class="text-muted"><i class="fa fa-map-marker text-primary"></i> Private island paradise with world-class diving and spa facilities.</p>
+                    <div class="btn-group btn-group-justified">
+                      <a href="https://www.anantara.com/en/bazaruto-island" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-globe"></i> Website</a>
+                      <a href="https://www.google.com/maps?q=Anantara+Bazaruto+Island+Resort" target="_blank" class="btn btn-default btn-sm"><i class="fa fa-map-marker"></i> Map</a>
+                      <a href="https://wa.me/919909446822?text=Hello,%20I'm%20interested%20in%20Anantara%20Bazaruto%20Island%20Resort." target="_blank" class="btn btn-success btn-sm"><i class="fa fa-whatsapp"></i> Book Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+
+        <a class="left carousel-control" href="#hotelCarouselMozambique" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#hotelCarouselMozambique" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  
+    <!-- Souvenirs -->
+    <h3 class="country-details-subsection-title text-primary">
+      <i class="fa fa-gift"></i> Top Souvenirs
+    </h3>
+    <p class="country-details-text">
+    Azulejo tiles, pastéis molds, cork bags.
+    </p>
+  
+    <!-- Common Phrases -->
+    <h3 class="country-details-subsection-title text-danger">
+      <i class="fa fa-comments"></i> Common Phrases (Portuguese)
+    </h3>
+    <ul class="list-unstyled country-details-text">
+      <li><strong>Hello:</strong>Olá</li>
+      <li><strong>Thank You:</strong>Obrigado</li>
+      <li><strong>Please:</strong>Por favor</li>
+    </ul>
+  
+    <!-- Quick Tips -->
+    <hr class="country-details-divider">
+    <h3 class="country-details-subsection-title text-muted">
+      <i class="fa fa-info-circle"></i> Quick Tips
+    </h3>
+    <ul class="country-details-list">
+      <li class="country-details-list-item">CP app trains; cataplana share.</li>
+      <li class="country-details-list-item">Pastéis cinnamon—tart tradition.</li>
+      <li class="country-details-list-item">São João June—hammer fun.</li>
+    </ul>
+  
+  </div>
+</section>
+
+
+          <!-- Gallery & Map -->
+          <section id="gallery-map" class="country-details-tab-pane" role="tabpanel" aria-labelledby="gallery-map" tabindex="0">
+            <div class="country-details-section">
+
+              <!-- Gallery Section -->
+              <div class="country-details-subsection">
+                <h3 class="country-details-subsection-title"><i class="fa fa-image"></i> Gallery Highlights</h3>          
+
+                <div class="country-gallery-unique-grid">
+                  <div class="gallery-item">
+                    <img src="assets/img/Portugal/gallary.avif" alt="Okavango Waterways">
+                  </div>
+                  <div class="gallery-item">
+                    <img src="assets/img/Portugal/gallary2.avif" alt="Okavango Waterways">
+                  </div>
+                  <div class="gallery-item tall">
+                    <img src="assets/img/Portugal/gallary3.avif" alt="Chobe Elephants">
+                  </div>
+                  <div class="gallery-item">
+                    <img src="assets/img/Portugal/gallary4.avif" alt="Tsodilo Rock Art">
+                  </div>
+                  <div class="gallery-item">
+                    <img src="assets/img/Portugal/tourism.avif" alt="Tsodilo Rock Art">
+                  </div>
+                  <div class="gallery-item wide">
+                    <img src="assets/img/Portugal/tourism2.avif" alt="Kalahari Sunset">
+                  </div>
+                  <div class="gallery-item wide">
+                    <img src="assets/img/Portugal/tourism3.avif" alt="Makgadikgadi Salt Pans">
+                  </div>
+                  <div class="gallery-item">
+                    <img src="assets/img/Portugal/tourism4.avif" alt="Kalahari Sunset">
+                  </div>
+                  <div class="gallery-item">
+                    <img src="assets/img/Portugal/culture.avif" alt="Kalahari Sunset">
+                  </div>
+                  <div class="gallery-item">
+                    <img src="assets/img/Portugal/food.avif" alt="Kalahari Sunset">
+                  </div>
+                  <div class="gallery-item">
+                    <img src="assets/img/Portugal/culture2.avif" alt="Kalahari Sunset">
+                  </div>
+                  <div class="gallery-item">
+                    <img src="assets/img/Portugal/culture3.avif" alt="Kalahari Sunset">
+                  </div>
+                  
+                </div>
+              </div>          
+
+              <hr class="country-details-divider">          
+
+              <!-- Map Section -->
+             <div class="country-details-subsection">
+                <h3 class="country-details-subsection-title">
+                  <i class="fa fa-map-marker"></i> Map Highlights
+                </h3>
+              
+                <!-- Google Map Embed -->
+                <div class="map-container">
+                  <iframe src="https://www.google.com/maps/d/embed?mid=16Iq8THDbbNBP-unIyBVPLC4lgXSoYV4&ehbc=2E312F" width="100%" height="700" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Travel Tips & Warnings -->
+          <section id="travel-warnings" class="country-details-tab-pane" role="tabpanel" aria-labelledby="travel-warnings" tabindex="0">
+  <div class="country-details-section">
+  
+    <h2 class="country-details-section-title text-danger">
+      <i class="fa fa-exclamation-triangle"></i> Travel Tips & Warnings
+    </h2>
+  
+    <div class="country-details-info-grid">
+      <div class="country-details-info-card bg-light p-3 rounded shadow-sm">
+        <div class="country-details-info-label"><i class="fa fa-money"></i> Currency</div>
+        <div class="country-details-info-value">
+        EUR contactless; no small vending.
+        </div>
+      </div>
+    
+      <div class="country-details-info-card bg-light p-3 rounded shadow-sm">
+        <div class="country-details-info-label"><i class="fa fa-medkit"></i> Health</div>
+        <div class="country-details-info-value">
+        Pastis digest—herb help.
+        </div>
+      </div>
+    
+      <div class="country-details-info-card bg-light p-3 rounded shadow-sm">
+        <div class="country-details-info-label"><i class="fa fa-phone"></i> Emergency</div>
+        <div class="country-details-info-value">
+          Police: <strong>112</strong> &nbsp; | &nbsp; Ambulance: <strong>112</strong> &nbsp; | &nbsp; Fire: <strong></strong>
+        </div>
+      </div>
+    </div>
+  
+    <h3 class="country-details-subsection-title mt-4">
+      <i class="fa fa-compass"></i> Do’s & Don’ts
+    </h3>
+  
+    <ul class="country-details-list">
+      <li class="country-details-list-item">
+        <i class="fa fa-check text-success"></i>Espresso standing
+      </li>
+      <li class="country-details-list-item">
+        <i class="fa fa-times text-danger"></i>no milk after noon.
+      </li>
+    </ul>
+  
+  </div>
+</section>
+
+
+        </div>
+      </div>
+    </main>
+  </div>
+ <!-- /* ---------- End Desktop Discover Botswana’s Wonders ---------- */ -->
+
+   <!-- /* ---------- Start Desktop Explore Your Next Adventure ---------- */ -->
+<section class="destinations-country-container my-120">
+  <h1 class="destinations-country-section-title">Explore Your Next Adventure in Portugal</h1>
+
+  <!-- Destinations Tab -->
+  <div id="destinations-country-destinations" class="destinations-country-tab-content active">
+    <div class="destinations-country-slider-container">
+
+      <div class="destinations-country-slider" id="destinations-country-slider" tabindex="0" aria-label="Destinations slider">
+
+        <div class="destinations-country-card">
+          <img src="assets/img/Portugal/adv.avif" alt="Maputo City" class="destinations-country-card-img">
+          <div class="destinations-country-card-body">
+            <h3 class="destinations-country-card-title">Douro rabelo cruises</h3>
+            <p class="destinations-country-card-subtitle">Vibrant Capital by the Indian Ocean</p>
+            <p class="destinations-country-card-content">Explore Mozambique’s lively capital filled with colonial architecture, oceanfront promenades, and delicious seafood at Maputo Fish Market.</p>
+          </div>
+        </div>
+
+        <div class="destinations-country-card">
+          <img src="assets/img/Portugal/adv2.avif" alt="Bazaruto Archipelago" class="destinations-country-card-img">
+          <div class="destinations-country-card-body">
+            <h3 class="destinations-country-card-title">Sintra tuk-tuk palaces</h3>
+            <p class="destinations-country-card-subtitle">Tropical Paradise of Turquoise Waters</p>
+            <p class="destinations-country-card-content">Sail through the islands of Bazaruto, home to white sand dunes, coral reefs, and dolphins — ideal for diving and snorkeling.</p>
+          </div>
+        </div>
+
+        <div class="destinations-country-card">
+          <img src="assets/img/Portugal/adv3.avif" alt="Gorongosa National Park" class="destinations-country-card-img">
+          <div class="destinations-country-card-body">
+            <h3 class="destinations-country-card-title">Algarve cliff hikes</h3>
+            <p class="destinations-country-card-subtitle">The Wild Heart of Mozambique</p>
+            <p class="destinations-country-card-content">Embark on a safari adventure among lions, elephants, and hippos in one of Africa’s most inspiring wildlife restoration parks.</p>
+          </div>
+        </div>
+
+        <div class="destinations-country-card">
+          <img src="assets/img/Portugal/adv4.avif" alt="Inhambane and Tofo Beach" class="destinations-country-card-img">
+          <div class="destinations-country-card-body">
+            <h3 class="destinations-country-card-title">Azores whale watches</h3>
+            <p class="destinations-country-card-subtitle">Coastal Bliss and Whale Shark Encounters</p>
+            <p class="destinations-country-card-content">Relax on golden beaches, surf gentle waves, and dive with giant manta rays and whale sharks in crystal-clear waters.</p>
+          </div>
+        </div>
+
+        <div class="destinations-country-card">
+          <img src="assets/img/Portugal/Belmond_Reid’s_Palace.avif" alt="Ilha de Moçambique" class="destinations-country-card-img">
+          <div class="destinations-country-card-body">
+            <h3 class="destinations-country-card-title">Porto port tastings</h3>
+            <p class="destinations-country-card-subtitle">A UNESCO Gem of Culture and History</p>
+            <p class="destinations-country-card-content">Step back in time on this tiny island of stone fortresses, colorful streets, and centuries of Portuguese-African heritage.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- /* ---------- end Desktop Explore Your Next Adventure ---------- */ -->
+
+ <!-- /* ---------- Start Desktop Tailored trips for every kind of travel ---------- */ -->
+<section class="discover-section my-120 mt-0">
+  <div class="container-fluid">
+    <div class="text-center mb-5">
+      <h2 class="section-heading text-dark">Discover Portugal, Your Way</h2>
+      <p class="section-desc text-dark mb-15">Tailored journeys through turquoise coasts, rich culture, and wild beauty.</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="trip-card" style="background-image: url('assets/img/Portugal/Conrad_Algarve.avif');">
+          <div class="trip-nights">6 Nights</div>
+          <div class="trip-content">
+            <h3 class="trip-title">Conrad Algarve</h3>
+            <p class="trip-desc">Discover Mozambique’s bustling capital with its colonial charm, colorful markets, and scenic oceanfront cafes.</p>
+            <span class="price">From £4,700 per person excl. flights</span>
+            <a href="maputo-city-explorer.html" class="btn btn-trip mt-2">Explore Trip</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="trip-card" style="background-image: url('assets/img/Portugal/Six_Senses_Douro_Valley.avif');">
+          <div class="trip-nights">7 Nights</div>
+          <div class="trip-content">
+            <h3 class="trip-title">Six Senses Douro Valley</h3>
+            <p class="trip-desc">Sail across the Bazaruto Archipelago, enjoy barefoot luxury, and snorkel in coral-filled turquoise lagoons.</p>
+            <span class="price">From £6,200 per person excl. flights</span>
+            <a href="bazaruto-island-retreat.html" class="btn btn-trip mt-2">Explore Trip</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="trip-card" style="background-image: url('assets/img/Portugal/The_Yeatman.avif');">
+          <div class="trip-nights">8 Nights</div>
+          <div class="trip-content">
+            <h3 class="trip-title">The Yeatman</h3>
+            <p class="trip-desc">Relax on golden beaches, dive with whale sharks, and explore the laid-back coastal charm of Inhambane Province.</p>
+            <span class="price">From £5,800 per person excl. flights</span>
+            <a href="tofo-inhambane-escape.html" class="btn btn-trip mt-2">Explore Trip</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="trip-card" style="background-image: url('assets/img/Portugal/Vila_Vita_Parc.avif');">
+          <div class="trip-nights">5 Nights</div>
+          <div class="trip-content">
+            <h3 class="trip-title">Vila_Vita_Parc</h3>
+            <p class="trip-desc">Embark on a thrilling safari in Mozambique’s rewilded park — home to lions, elephants, and breathtaking landscapes.</p>
+            <span class="price">From £5,100 per person excl. flights</span>
+            <a href="gorongosa-safari-adventure.html" class="btn btn-trip mt-2">Explore Trip</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- /* ---------- end Desktop Tailored trips for every kind of travel ---------- */ -->
+</main>
+ <!-- /* ---------- Start Desktop Footer ---------- */ -->
+      <!-- Footer -->
+    <footer class="footer-wrapper">
+        <div class="footer-main">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Company Info Column -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="footer-section footer-logo-section">
+                            <div class="footer-logo">
+                                <img src="/assets/img/logo/dc-group.png" alt="DC Group">
+                            </div>
+                            <p class="footer-tagline">
+                                DC Group – Connecting people, places, and experiences with excellence.
+                            </p>
+                            <div class="footer-social-links">
+                                <a href="#" class="footer-social-link" aria-label="Facebook">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="#" class="footer-social-link" aria-label="Twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#" class="footer-social-link" aria-label="Instagram">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="#" class="footer-social-link" aria-label="Google Plus">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                                <a href="#" class="footer-social-link" aria-label="YouTube">
+                                    <i class="fa fa-youtube-play"></i>
+                                </a>
+                                <a href="#" class="footer-social-link" aria-label="LinkedIn">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links Column -->
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6">
+                        <div class="footer-section">
+                            <h3 class="footer-section-title">Quick Links</h3>
+                            <ul class="footer-links-list">
+                                <li class="footer-links-item">
+                                    <a href="#home" class="footer-links-anchor">Home</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#about" class="footer-links-anchor">About Us</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#destinations" class="footer-links-anchor">Destinations</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#package" class="footer-links-anchor">Package</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#chairman" class="footer-links-anchor">Our Chairman</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#client" class="footer-links-anchor">Our Client</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#gallery" class="footer-links-anchor">Gallery</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#group-companies" class="footer-links-anchor">Group Companies</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#contacts" class="footer-links-anchor">Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Group Companies Column -->
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                        <div class="footer-section">
+                            <h3 class="footer-section-title">Group Companies</h3>
+                            <ul class="footer-links-list">
+                                <li class="footer-links-item">
+                                    <a href="#dc-tours" class="footer-links-anchor">DC Tours & Travels</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#dc-holidays" class="footer-links-anchor">DC Holidays</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#dc-travel-expert" class="footer-links-anchor">DC The Travel Expert</a>
+                                </li>
+                                <li class="footer-links-item">
+                                    <a href="#dc-insurance" class="footer-links-anchor">DC Insurance Solution</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Us Column -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-section">
+                            <h3 class="footer-section-title">Contact Us</h3>
+                            
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="footer-contact-details">
+                                    <div class="footer-contact-label">Phone</div>
+                                    <a href="tel:+3912345678" class="footer-contact-link">+39 123456789</a>
+                                </div>
+                            </div>
+
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="footer-contact-details">
+                                    <div class="footer-contact-label">Email</div>
+                                    <a href="mailto:mail@domain.com" class="footer-contact-link">mail@domain.com</a>
+                                </div>
+                            </div>
+
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon">
+                                    <i class="fa fa-clock-o"></i>
+                                </div>
+                                <div class="footer-contact-details">
+                                    <div class="footer-contact-label">Working Hours</div>
+                                    <div>Monday to Friday: 9:00 am to 8:00 pm</div>
+                                    <div>Saturday: 9:00 am to 12:00 pm</div>
+                                </div>
+                            </div>
+
+                            <div class="footer-contact-item">
+                                <div class="footer-contact-icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="footer-contact-details">
+                                    <div class="footer-contact-label">Address</div>
+                                    <div>322 Moon St, Venice</div>
+                                    <div>Italy, 1231</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="footer-copyright">
+                            Copyright © All Rights Reserved by <a href="#" target="_blank">DC Grops</a> | Developed by <a href="#" target="_blank">Unique IT Solution</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+ <!-- /* ---------- End Desktop Footer ---------- */ -->
+
+     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="./assets/js/dev-script.js"></script>
+
+</body>
+
+</html>
